@@ -22,7 +22,7 @@ public class HttpExemplo {
         String url = "https://maps.googleapis.com/maps/api/distancematrix/json?origins=Seattle&destinations=San+Francisco&key=AIzaSyDxSPaFPYw4VHoODgbDcoRWjj68zeUkEu8";
         String urllocal = "http://192.168.0.104:8084/VideoAulaWebServices/webresources/aulaws/usuario/get";
         //
-        String my = "http://192.168.0.104:8084/TestHome/webresources/sensor?sensorId=1";
+        String my = "http://192.168.0.104:8084/MyNewHome/webresources/sensor?sensorId=1";
         System.out.println("Testing 1 - Send Http GET request");
         
         String json = http.sendGet(my);
